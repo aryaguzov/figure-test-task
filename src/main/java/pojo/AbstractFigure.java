@@ -1,7 +1,7 @@
 package pojo;
 
 public abstract class AbstractFigure {
-    protected String color;
+    protected final String color;
 
     protected double area;
 
@@ -12,10 +12,6 @@ public abstract class AbstractFigure {
 
     public String getColor() {
         return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
     }
 
     public double getArea() {
